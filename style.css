@@ -22,13 +22,11 @@ body {
   font-weight: 600;
 }
 nav {
-
   width: 100%;
   display: flex;
   align-items: center;
 }
 nav div {
-
   width: 15%;
   margin-left: auto;
   display: flex;
@@ -41,7 +39,6 @@ nav a {
   position: relative;
   /* left: 10%; */
   /* margin-right: auto; */
- 
 }
 nav img {
   width: 100%;
@@ -55,8 +52,6 @@ button {
   background: red;
   border: none;
 }
-
-
 
 option,
 li {
@@ -74,7 +69,6 @@ li {
 }
 
 .search-bar {
- 
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -191,17 +185,15 @@ footer p {
   color: black;
   width: 80%;
   padding: 0.5em 0.8em;
-  
 }
 .search-btn {
   text-transform: capitalize;
   padding: 0.5em;
   white-space: nowrap;
-  
+
   width: 30%;
   margin-left: auto;
   background: red;
- 
 }
 
 /* accordian */
@@ -211,17 +203,15 @@ footer p {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
-@media  screen and (max-width : 1700px) {
-  .search-bar-main{
+@media screen and (max-width: 1700px) {
+  .search-bar-main {
     padding: 0%;
     width: 75%;
   }
 }
 
-
-
-@media  screen and (max-width:1000px)  {
-  .search-bar-main{
+@media screen and (max-width: 1000px) {
+  .search-bar-main {
     margin: auto;
     display: flex;
     width: 60%;
@@ -231,7 +221,6 @@ footer p {
     border-style: none;
   }
   .search-bar-main input {
-    
     width: 100%;
     padding: 0.5em 0.8em;
     margin-bottom: 1em;
@@ -249,90 +238,86 @@ footer p {
     width: 40%;
     text-align: center;
     background: red;
-   
   }
 
+  .advertisements {
+    background: black;
+    border-bottom: 8px solid #222;
+    /* padding: 5%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .advertisements > div {
+    width: 50%;
+  }
 
-.advertisements {
-  background: black;
-  border-bottom: 8px solid #222;
-  /* padding: 5%; */
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-.advertisements >div{
-  width: 50%;
-}
+  .advertisements div img {
+    width: 100%;
+    object-fit: scale-down;
+  }
 
-.advertisements div img {
-  width: 100%;
-  object-fit: scale-down;
-}
+  .large {
+    font-size: 2em;
+    font-weight: 600;
+  }
 
-.large{
-font-size: 2em;
-font-weight: 600;
-}
+  .medium {
+    font-size: 1.5em;
+  }
+  .small {
+    font-size: 1em;
+  }
 
-.medium{
-font-size: 1.5em;
-}
-.small{
-font-size: 1em;
-}
+  .question {
+    width: 60%;
+  }
 
-.question{
-  width: 60%;
-}
+  nav div {
+    width: 50%;
+    justify-content: space-evenly;
+  }
 
-nav div{
-  width: 50%;
-  justify-content: space-evenly;
-}
+  nav button {
+    padding: 0.3em;
+    border: none;
+    border-radius: 0.3em;
+    width: 40%;
+  }
+  select {
+    border-radius: 0.5em;
+    width: 40%;
+  }
 
-nav button{
-  padding: 0.3em;
-  border: none;
-  border-radius: 0.3em;
-  width: 40%;
-}
-select{
-  border-radius: 0.5em;
-  width: 40%;
-}
-
-footer {
-  width: 80%;
-}
-.question{
-  width: 90%;
-}
-
-.question-temp{
-  width: 80%;
-  margin: auto;
-  margin-bottom: 10px;
-}
-
-
-}
-
-@media  screen and (max-width : 800px) {
-  .search-bar-main{
+  footer {
     width: 80%;
   }
-  .search-btn{
+  .question {
+    width: 90%;
+  }
+
+  .question-temp {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .search-bar-main {
+    width: 80%;
+  }
+  .search-btn {
     width: 50%;
     padding: 0.5em;
   }
 }
 
-@media  screen and (max-width : 600px) {
-  nav a{
+@media screen and (max-width: 600px) {
+  nav a {
     width: 33%;
   }
-  .search-bar-main{
+  .search-bar-main {
     margin: auto;
     display: flex;
     width: 90%;
@@ -359,89 +344,84 @@ footer {
     width: 40%;
     text-align: center;
     background: red;
-   
   }
 
+  .advertisements {
+    background: black;
+    border-bottom: 8px solid #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .advertisements > div {
+    width: 100%;
+  }
 
-.advertisements {
-  background: black;
-  border-bottom: 8px solid #222;
-  /* padding: 5%; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-.advertisements >div{
-  width: 100%;
-}
+  .advertisements div img {
+    width: 100%;
+    object-fit: scale-down;
+  }
 
-.advertisements div img {
-  width: 100%;
-  object-fit: scale-down;
-}
+  .large {
+    font-size: 1.5em;
+    font-weight: 600;
+  }
 
-.large{
-font-size: 1.5em;
-font-weight: 600;
-}
+  .medium {
+    font-size: 1em;
+  }
+  .small {
+    font-size: 0.85em;
+  }
 
-.medium{
-font-size: 1em;
-}
-.small{
-font-size: 0.85em;
-}
+  .question {
+    width: 100%;
+  }
+  .faq {
+    padding: 1em;
+  }
 
-.question{
-  width: 100%;
-}
-.faq{
-  padding: 1em;
-}
+  footer {
+    width: 90%;
+    padding: 0%;
+    padding-top: 1em;
+  }
 
-footer{
-  width: 90%;
-  padding: 0%;
-  padding-top: 1em;
-}
-
-footer ul{
-  grid-template-columns: 1fr 1fr;
-  width: 100%;
-
-}
-nav div{
-  width: 50%;
-  justify-content: space-evenly;
-}
-
-nav button{
-  padding: 0.3em;
-  border: none;
-  border-radius: 0.3em;
-  width: 40%;
-}
-select{
-  border-radius: 0.5em;
-  width: 40%;
-}
-  
-}
-
-@media screen and (max-width: 400px){
-  nav div{
+  footer ul {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+  nav div {
     width: 50%;
     justify-content: space-evenly;
   }
 
-  nav button{
+  nav button {
     padding: 0.3em;
     border: none;
     border-radius: 0.3em;
     width: 40%;
   }
-  select{
+  select {
+    border-radius: 0.5em;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  nav div {
+    width: 50%;
+    justify-content: space-evenly;
+  }
+
+  nav button {
+    padding: 0.3em;
+    border: none;
+    border-radius: 0.3em;
+    width: 40%;
+  }
+  select {
     border-radius: 0.5em;
     width: 40%;
   }
@@ -449,11 +429,11 @@ select{
     padding: 5%;
   }
 
-  .search-btn{
+  .search-btn {
     width: 50%;
   }
 
-  .question-temp{
+  .question-temp {
     width: 100%;
   }
 }
